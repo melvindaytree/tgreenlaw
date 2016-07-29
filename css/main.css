@@ -95,21 +95,182 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    max-width:1200px !important;
+    margin: 0 auto !important;
 
+}
 
+.nav-color {
+    background-color:#122850;
+}
 
+.navbar-nav>li>a {
+    color:white;
+    padding-right: 29px !important;
+    padding-left: 38px !important;
+        line-height: 40px;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px 37px;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    background-color:#0b1c3c;
+}
 
+#navbar {
+    margin-bottom:0px;
+    border-radius:0px;
+    border-bottom: 1px solid white;
+}
 
+.navbar-nav>li>a:hover {
+        color: rgb(197, 158, 73);
+        background-color:#0b1c3c !important;
+}
 
+.white {
+    color: white;
+}
 
+.float-right {
+    float:right;
+}
 
+.phone-color {
+    color:#c49a41;
+}
 
+#head {
+        border-bottom: 1px solid gray;
+}
 
+#top-nav {
+    height: 40px;
+    font-family: Helvetica;
+    text-align:center;
+    
+}
 
+.col-md-12 {
+    padding-right:0px !important;
+    padding-left:0px !important;
+}
 
+.img-header {
+    width:1200px;
+    height:250px;
+}
 
+/*Left Side of front Page*/
 
+#left-bar {
+    background-color:#e3e7ea;
+}
 
+#left-bar>h3 {
+    color:#122850;
+    border-bottom: 1px solid #c49a41;
+        padding-bottom: 6px;
+}
+
+#left-bar>ul {
+    list-style-type: none;
+}
+
+#left-bar>ul>li {
+    text-decoration: none;
+}
+
+#left-bar>ul>li>a {
+    text-transform: uppercase;
+    display: block;
+    margin: 0 -25px;
+    padding: 2.5% 25px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-size: 1.5rem;
+    text-transform: none;
+} 
+
+/*Right Side of front Page*/
+
+#right-bar {
+    background-color:#e3e7ea;
+}
+
+#right-bar>h3 {
+    color:#122850;
+    border-bottom: 1px solid #c49a41;
+        padding-bottom: 6px;
+}
+
+input {
+    border: 0px solid transparent;
+    margin-top:10px !important;
+        width:250px;
+        height:30px;
+}
+
+.textarea-height {
+    height:60px;
+}
+
+::placeholder {
+    vertical-align: top;
+}
+
+.center-input {
+    text-align:center;
+}
+
+.img-center {
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.quote-quotes {
+    font-size: 36px;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: left;
+    color: #c49a41;
+}
+
+.quote-color {
+    color:#797979;
+}
+
+.quote-person {
+     color: #c49a41;
+}
+
+/*Middle of the Front Page*/
+#middle {
+    background-color:white;
+}
+
+.text-margin-top {
+    margin-top:30px;
+}
+
+/*Footer*/
+
+#footertop {
+    background-color:#122850;
+    color:white;
+}
+
+#foot {
+    float: right;
+}
+
+#footerbot {
+    background-color:#e3e7ea;
+}
 
 /* ==========================================================================
    Helper classes
